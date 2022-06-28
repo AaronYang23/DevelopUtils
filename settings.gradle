@@ -8,4 +8,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "DevelopUtils"
 include ':app'
-include ':Lib_Utils'
+include ':lib_utils'
+include ':lib_widget'

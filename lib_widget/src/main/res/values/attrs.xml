@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--                        自定义属性类型-->
+    <!--    reference: 引用-->
+    <!--    string: -->
+    <!--    color: -->
+    <!--    dimension: -->
+    <!--    boolean: -->
+    <!--    integer: -->
+    <!--    float: -->
+    <!--    fraction: 百分数-->
+    <!--    enum: 枚举值-->
+    <!--        <declare-styleable name="名称">-->
+    <!--            <attr name="orientation">-->
+    <!--                <enum name="horizontal" value="0" />-->
+    <!--                <enum name="vertical" value="1" />-->
+    <!--            </attr>-->
+    <!--        </declare-styleable>-->
+    <!--    flag: 位或运算,包含 | 的属性-->
+    <!--    ps:dp sp 用dimen 非 int  float-->
+    <declare-styleable name="TextArrowGroupView">
+        <attr name="text" format="string|reference" />
+        <attr name="textSize" format="dimension|reference" />
+        <attr name="titleColor" format="color|reference" />
+        <attr name="icon" format="reference" />
+        <attr name="iconPosition">
+            <enum name="start" value="0" />
+            <enum name="end" value="1" />
+        </attr>
+        <attr name="iconWidth" format="dimension|reference" />
+        <attr name="iconMargin" format="dimension|reference" />
+    </declare-styleable>
+
+</resources>
